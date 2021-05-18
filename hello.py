@@ -41,7 +41,7 @@ def send_msg():
         print(data)
         return redirect('/thankyou.html')
     else:
-        return "wrong!!!!!!!"
+        return "wrong data !!!!!!!"
 
 
 """ @app.route('/index.html')
